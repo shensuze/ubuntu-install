@@ -1,0 +1,13 @@
+apt-get install *** 出现 软件包***没有提供可供安装的候选者
+
+在网上查了一下，有解决方法是
+
+在/etc/apt/sources.list中添加一行
+
+deb http://cz.archive.ubuntu.com/ubuntu lucid main 再执行sudo apt-get update
+
+我没有添加，直接执行了sudo apt-get update
+
+再安装aptitude 和vim， 没有出现之前的错误提示。
+
+转载于:https://www.cnblogs.com/meredith/p/3415442.html
