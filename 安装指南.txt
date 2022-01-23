@@ -11,3 +11,7 @@ deb http://cz.archive.ubuntu.com/ubuntu lucid main 再执行sudo apt-get update
 再安装aptitude 和vim， 没有出现之前的错误提示。
 
 转载于:https://www.cnblogs.com/meredith/p/3415442.html
+
+2022.1.23
+安装完成后无法打开全屏，https://www.reddit.com/r/voidlinux/comments/fg2yim/virtualbox_error_0x80004005/
+记得卸载增强功能盘
